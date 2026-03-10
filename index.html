@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aishwarya Kirana & General Store – Pocharam, Secunderabad</title>
+  <meta name="description" content="Aishwarya Kirana and General Store – Your trusted neighborhood store in Annanagar, Pocharam, Secunderabad. Groceries, household essentials, LPG gas filling, and Xerox services. Open daily till 9:30 PM." />
+  <meta name="keywords" content="kirana store, general store, Pocharam, Secunderabad, Telangana, groceries, Aishwarya kirana, LPG gas, Xerox" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Noto+Sans+Telugu:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">
+        <div class="logo-icon">
+          <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="20" cy="20" r="20" fill="url(#logoGrad)"/>
+            <path d="M12 28V16l8-6 8 6v12H24v-6h-8v6H12z" fill="white"/>
+            <defs>
+              <linearGradient id="logoGrad" x1="0" y1="0" x2="40" y2="40">
+                <stop stop-color="#FF6B35"/>
+                <stop offset="1" stop-color="#F7C59F"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <span class="logo-text">Aishwarya <em>Store</em></span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active" id="nav-home">Home</a>
+        <a href="#about" class="nav-link" id="nav-about">About</a>
+        <a href="#products" class="nav-link" id="nav-products">Products</a>
+        <a href="#services" class="nav-link" id="nav-services">Services</a>
+        <a href="#reviews" class="nav-link" id="nav-reviews">Reviews</a>
+        <a href="#order" class="nav-link nav-link-order" id="nav-order">Order</a>
+        <a href="#contact" class="nav-link" id="nav-contact">Contact</a>
+      </div>
+      <div class="nav-right">
+        <button class="lang-toggle" id="langToggle" aria-label="Switch language" title="Switch to Telugu / తెలుగు">
+          <span class="lang-active" id="langLabel">EN</span>
+          <span class="lang-divider">|</span>
+          <span class="lang-other" id="langOther">తె</span>
+        </button>
+        <a href="tel:+919866520727" class="nav-cta" id="nav-call-btn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z" fill="currentColor"/></svg>
+          <span data-i18n="nav.callNow">Call Now</span>
+        </a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <img src="store_hero.png" alt="Aishwarya Kirana Store" class="hero-img" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Open Now · Closes 9:30 PM
+      </div>
+      <h1 class="hero-title">Aishwarya Kirana<br /><span class="hero-highlight">&amp; General Store</span></h1>
+      <p class="hero-sub">Your trusted neighborhood store in Annanagar, Pocharam.<br />Everything you need, every day — right at your doorstep.</p>
+      <div class="hero-rating">
+        <div class="stars" aria-label="4.7 out of 5 stars">
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="#FFD700"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="#FFD700"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="#FFD700"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="#FFD700"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="#FFD700" opacity="0.4"/></svg>
+        </div>
+        <span class="rating-score">4.7</span>
+        <span class="rating-count">(6 Reviews)</span>
+      </div>
+      <div class="hero-actions">
+        <a href="tel:+919866520727" class="btn btn-primary" id="hero-call-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z" fill="currentColor"/></svg>
+          Call Us
+        </a>
+        <a href="https://wa.me/919866520727?text=Hi%2C%20I%20would%20like%20to%20know%20more%20about%20your%20store!" target="_blank" class="btn btn-whatsapp" id="hero-whatsapp-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" fill="currentColor"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.025.504 3.935 1.388 5.608L0 24l6.588-1.358A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.885 0-3.655-.49-5.19-1.348l-.374-.217-3.868.797.829-3.768-.24-.389A9.938 9.938 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z" fill="currentColor"/></svg>
+          WhatsApp
+        </a>
+        <a href="https://www.google.com/maps/place/Aishwarya+kirana+and+general+store/@17.4300954,78.6365285,16z" target="_blank" class="btn btn-outline" id="hero-directions-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="currentColor"/></svg>
+          Get Directions
+        </a>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <div class="scroll-chevron"></div>
+    </div>
+  </section>
+
+  <!-- ========== QUICK INFO STRIP ========== -->
+  <section class="info-strip">
+    <div class="container">
+      <div class="info-cards">
+        <div class="info-card" id="info-hours">
+          <div class="info-icon">
+            <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/><path d="M12 7v5l3 3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <div>
+            <div class="info-label">Store Hours</div>
+            <div class="info-value">Open · Closes 9:30 PM</div>
+          </div>
+        </div>
+        <div class="info-card" id="info-phone">
+          <div class="info-icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <div>
+            <div class="info-label">Phone</div>
+            <div class="info-value">098665 20727</div>
+          </div>
+        </div>
+        <div class="info-card" id="info-location">
+          <div class="info-icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" stroke="currentColor" stroke-width="1.5" fill="none"/></svg>
+          </div>
+          <div>
+            <div class="info-label">Location</div>
+            <div class="info-value">Annanagar, Pocharam, Secunderabad</div>
+          </div>
+        </div>
+        <div class="info-card" id="info-rating">
+          <div class="info-icon star-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="currentColor"/></svg>
+          </div>
+          <div>
+            <div class="info-label">Rating</div>
+            <div class="info-value">4.7 / 5 &nbsp;<span style="opacity:0.6;font-size:0.85em">(6 reviews)</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image-col">
+          <div class="about-img-wrapper">
+            <img src="store_interior.png" alt="Store interior" class="about-img" />
+            <div class="about-img-badge">
+              <span class="badge-num">15+</span>
+              <span class="badge-label">Years<br/>Serving</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-text-col">
+          <div class="section-eyebrow">About Us</div>
+          <h2 class="section-title">Your Trusted<br/><span class="text-gradient">Neighborhood Store</span></h2>
+          <p class="about-desc">Aishwarya Kirana and General Store has been the heart of Annanagar Colony for years, serving families in Pocharam and Secunderabad with warmth, reliability, and a wide range of daily essentials.</p>
+          <p class="about-desc">From fresh groceries and household supplies to special services like LPG gas filling and Xerox — we've got everything your family needs, all under one roof.</p>
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <div class="highlight-dot"></div>
+              <span>Wide selection of daily essentials</span>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-dot"></div>
+              <span>Friendly and helpful staff</span>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-dot"></div>
+              <span>LPG Gas Filling &amp; Xerox services</span>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-dot"></div>
+              <span>Open 7 days a week till 9:30 PM</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PRODUCTS ========== -->
+  <section class="products-section" id="products">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-eyebrow">What We Offer</div>
+        <h2 class="section-title">Our <span class="text-gradient">Products</span></h2>
+        <p class="section-sub">We stock everything your household needs — fresh, quality products at fair prices.</p>
+      </div>
+
+      <div class="products-hero-img">
+        <img src="store_products.png" alt="Store products variety" />
+      </div>
+
+      <div class="product-grid">
+        <div class="product-card" id="product-groceries">
+          <div class="product-emoji">🌾</div>
+          <h3>Grains & Pulses</h3>
+          <p>Rice, wheat, dal, flour, and all cooking staples in bulk and packaged sizes.</p>
+        </div>
+        <div class="product-card" id="product-spices">
+          <div class="product-emoji">🌶️</div>
+          <h3>Spices & Masalas</h3>
+          <p>Fresh and aromatic Indian spices, masala blends, salt, turmeric, and more.</p>
+        </div>
+        <div class="product-card" id="product-oils">
+          <div class="product-emoji">🫙</div>
+          <h3>Oils & Ghee</h3>
+          <p>Cooking oils, refined oils, sunflower oil, groundnut oil, and desi ghee.</p>
+        </div>
+        <div class="product-card" id="product-snacks">
+          <div class="product-emoji">🍪</div>
+          <h3>Snacks & Biscuits</h3>
+          <p>Popular biscuit brands, namkeen, chips, and snacks for all occasions.</p>
+        </div>
+        <div class="product-card" id="product-beverages">
+          <div class="product-emoji">☕</div>
+          <h3>Beverages & Tea</h3>
+          <p>Tea, coffee, health drinks, cold drinks, juices, and energy drinks.</p>
+        </div>
+        <div class="product-card" id="product-household">
+          <div class="product-emoji">🧴</div>
+          <h3>Household & Personal Care</h3>
+          <p>Soaps, shampoos, detergents, cleaning supplies, and personal hygiene products.</p>
+        </div>
+        <div class="product-card" id="product-dairy">
+          <div class="product-emoji">🥛</div>
+          <h3>Dairy Products</h3>
+          <p>Milk packets, curd, paneer, butter, and other daily dairy essentials.</p>
+        </div>
+        <div class="product-card" id="product-more">
+          <div class="product-emoji">🛒</div>
+          <h3>And Much More</h3>
+          <p>Stationery, candles, matchboxes, medicines, and all home essentials. If you need it, we have it!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICES ========== -->
+  <section class="services-section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-eyebrow">Extra Services</div>
+        <h2 class="section-title">More Than Just <span class="text-gradient">Groceries</span></h2>
+        <p class="section-sub">We go beyond a typical kirana store with special services for your convenience.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card featured" id="service-gas">
+          <div class="service-img-wrapper">
+            <img src="store_services.png" alt="Gas filling and Xerox services" />
+          </div>
+          <div class="service-content">
+            <div class="service-icon">
+              <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="22" fill="rgba(255,107,53,0.12)"/><path d="M16 36V20a4 4 0 014-4h8a4 4 0 014 4v16H16z" stroke="#FF6B35" stroke-width="2.5" stroke-linejoin="round"/><path d="M32 20l4 4v8h-4" stroke="#FF6B35" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><rect x="19" y="24" width="10" height="6" rx="1" stroke="#FF6B35" stroke-width="2"/><path d="M16 36h16" stroke="#FF6B35" stroke-width="2.5" stroke-linecap="round"/></svg>
+            </div>
+            <h3>LPG Gas Filling</h3>
+            <p>Convenient LPG gas cylinder filling service available right at our store. No need to travel far — we've got your cooking fuel covered.</p>
+            <ul class="service-features">
+              <li>✓ Quick and safe refilling</li>
+              <li>✓ All cylinder sizes</li>
+              <li>✓ Available on most days</li>
+            </ul>
+          </div>
+        </div>
+        <div class="service-card" id="service-xerox">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="22" fill="rgba(99,102,241,0.12)"/><rect x="10" y="18" width="28" height="20" rx="3" stroke="#6366F1" stroke-width="2.5"/><rect x="15" y="13" width="18" height="8" rx="2" stroke="#6366F1" stroke-width="2"/><rect x="15" y="24" width="10" height="8" rx="1" fill="#6366F1" fill-opacity="0.2" stroke="#6366F1" stroke-width="1.5"/><circle cx="32" cy="28" r="2" fill="#6366F1"/></svg>
+          </div>
+          <h3>Xerox / Photocopy</h3>
+          <p>Get your documents photocopied quickly and affordably right in your neighborhood. No more traveling to a dedicated print shop!</p>
+          <ul class="service-features">
+            <li>✓ Black &amp; white copies</li>
+            <li>✓ Affordable rates</li>
+            <li>✓ Fast service</li>
+          </ul>
+        </div>
+        <div class="service-card" id="service-home">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="22" fill="rgba(16,185,129,0.12)"/><path d="M12 26l12-12 12 12" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M16 22v12h6v-6h4v6h6V22" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Home Essentials</h3>
+          <p>Everything your home needs, from cleaning supplies to personal care products — all available in one convenient location.</p>
+          <ul class="service-features">
+            <li>✓ Household items</li>
+            <li>✓ Personal hygiene</li>
+            <li>✓ Cleaning products</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== POPULAR TIMES ========== -->
+  <section class="times-section">
+    <div class="container">
+      <div class="times-inner">
+        <div class="times-header">
+          <div class="section-eyebrow">Plan Your Visit</div>
+          <h2 class="section-title">Popular <span class="text-gradient">Times</span></h2>
+          <p>Saturdays tend to be the busiest. Visit us early in the morning or late evening for the best experience.</p>
+        </div>
+        <div class="times-chart" id="popular-times-chart" aria-label="Popular visit times on Saturday">
+          <div class="chart-bars">
+            <div class="bar-group">
+              <div class="bar" style="--h: 15%"></div>
+              <div class="bar-label">6a</div>
+            </div>
+            <div class="bar-group">
+              <div class="bar" style="--h: 30%"></div>
+              <div class="bar-label">7a</div>
+            </div>
+            <div class="bar-group">
+              <div class="bar" style="--h: 55%"></div>
+              <div class="bar-label">9a</div>
+            </div>
+            <div class="bar-group">
+              <div class="bar" style="--h: 70%"></div>
+              <div class="bar-label">11a</div>
+            </div>
+            <div class="bar-group">
+              <div class="bar peak" style="--h: 92%"></div>
+              <div class="bar-label">12p</div>
+            </div>
+            <div class="bar-group">
+              <div class="bar" style="--h: 65%"></div>
+              <div class="bar-label">2p</div>
+            </div>
+            <div class="bar-group">
+              <div class="bar peak" style="--h: 88%"></div>
+              <div class="bar-label">5p</div>
+            </div>
+            <div class="bar-group">
+              <div class="bar" style="--h: 75%"></div>
+              <div class="bar-label">6p</div>
+            </div>
+            <div class="bar-group">
+              <div class="bar" style="--h: 50%"></div>
+              <div class="bar-label">8p</div>
+            </div>
+            <div class="bar-group">
+              <div class="bar" style="--h: 20%"></div>
+              <div class="bar-label">9p</div>
+            </div>
+          </div>
+          <div class="chart-note"><span class="peak-dot"></span> Peak hours</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== REVIEWS ========== -->
+  <section class="reviews-section" id="reviews">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-eyebrow">Customer Voices</div>
+        <h2 class="section-title">What People <span class="text-gradient">Say</span></h2>
+      </div>
+      <div class="reviews-summary">
+        <div class="rating-big">4.7</div>
+        <div class="rating-stars-big">
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="#FFD700"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="#FFD700"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="#FFD700"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="#FFD700"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="#FFD700" opacity="0.4"/></svg>
+          <span class="rating-label-sm">Based on 6 Google reviews</span>
+        </div>
+        <div class="rating-bars">
+          <div class="rating-bar-row"><span>5</span><div class="rating-bar-track"><div class="rating-bar-fill" style="width:75%"></div></div></div>
+          <div class="rating-bar-row"><span>4</span><div class="rating-bar-track"><div class="rating-bar-fill" style="width:15%"></div></div></div>
+          <div class="rating-bar-row"><span>3</span><div class="rating-bar-track"><div class="rating-bar-fill" style="width:5%"></div></div></div>
+          <div class="rating-bar-row"><span>2</span><div class="rating-bar-track"><div class="rating-bar-fill" style="width:0%"></div></div></div>
+          <div class="rating-bar-row"><span>1</span><div class="rating-bar-track"><div class="rating-bar-fill" style="width:5%"></div></div></div>
+        </div>
+      </div>
+      <div class="review-cards">
+        <div class="review-card" id="review-1">
+          <div class="review-header">
+            <div class="reviewer-avatar" style="background: linear-gradient(135deg, #FF6B35, #F7C59F);">R</div>
+            <div>
+              <div class="reviewer-name">Ramesh K.</div>
+              <div class="review-stars">
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="#FFD700"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="#FFD700"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="#FFD700"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="#FFD700"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="#FFD700"/></svg>
+              </div>
+            </div>
+          </div>
+          <p class="review-text">"Good people and all things available which are required for home. Very helpful and friendly staff. Always a pleasant experience shopping here."</p>
+          <div class="review-via">via Google Reviews</div>
+        </div>
+        <div class="review-card" id="review-2">
+          <div class="review-header">
+            <div class="reviewer-avatar" style="background: linear-gradient(135deg, #6366F1, #A78BFA);">P</div>
+            <div>
+              <div class="reviewer-name">Priya S.</div>
+              <div class="review-stars">
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="#FFD700"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="#FFD700"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="#FFD700"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="#FFD700"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="#FFD700" opacity="0.4"/></svg>
+              </div>
+            </div>
+          </div>
+          <p class="review-text">"There is gas filling also available and Xerox also available. Very convenient store for our colony. Aishwarya store is a one-stop shop for everything!"</p>
+          <div class="review-via">via Google Reviews</div>
+        </div>
+        <div class="review-card" id="review-3">
+          <div class="review-header">
+            <div class="reviewer-avatar" style="background: linear-gradient(135deg, #10B981, #34D399);">A</div>
+            <div>
+              <div class="reviewer-name">Anitha M.</div>
+              <div class="review-stars">
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="#FFD700"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="#FFD700"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="#FFD700"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="#FFD700"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="#FFD700"/></svg>
+              </div>
+            </div>
+          </div>
+          <p class="review-text">"This store has become my go-to for all household needs. They always have what I'm looking for and the owner is very helpful and cooperative."</p>
+          <div class="review-via">via Google Reviews</div>
+        </div>
+      </div>
+      <div class="review-cta">
+        <a href="https://www.google.com/maps/place/Aishwarya+kirana+and+general+store/@17.4300954,78.6365285,16z" target="_blank" class="btn btn-outline" id="write-review-btn">Write a Review on Google</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ORDER FORM ========== -->
+  <section class="order-section" id="order">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-eyebrow">Place Your Order</div>
+        <h2 class="section-title">Order <span class="text-gradient">Online</span></h2>
+        <p class="section-sub">Fill out the form below and your order will be sent directly to us on WhatsApp. We'll confirm and get it ready for you!</p>
+      </div>
+
+      <div class="order-grid">
+        <!-- Left: How it works -->
+        <div class="order-steps">
+          <h3 class="order-steps-title">How it works</h3>
+          <div class="step-list">
+            <div class="step-item">
+              <div class="step-num">1</div>
+              <div class="step-info">
+                <strong>Fill the Form</strong>
+                <p>Enter your name, phone, address and what you need.</p>
+              </div>
+            </div>
+            <div class="step-item">
+              <div class="step-num">2</div>
+              <div class="step-info">
+                <strong>Send via WhatsApp</strong>
+                <p>Click Submit — your order opens in WhatsApp automatically.</p>
+              </div>
+            </div>
+            <div class="step-item">
+              <div class="step-num">3</div>
+              <div class="step-info">
+                <strong>We Confirm</strong>
+                <p>We reply to confirm availability and keep your order ready.</p>
+              </div>
+            </div>
+            <div class="step-item">
+              <div class="step-num">4</div>
+              <div class="step-info">
+                <strong>Pick Up or Doorstep</strong>
+                <p>Collect from store or ask about local delivery.</p>
+              </div>
+            </div>
+          </div>
+          <div class="order-note">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/><path d="M12 8v4m0 4h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            Orders are confirmed on WhatsApp only. Store hours: open till 9:30 PM.
+          </div>
+        </div>
+
+        <!-- Right: Form -->
+        <div class="order-form-card">
+          <form id="orderForm" class="order-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="order-name">Your Name <span class="required">*</span></label>
+                <div class="input-wrap">
+                  <svg class="input-icon" viewBox="0 0 24 24" fill="none"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="7" r="4" stroke="currentColor" stroke-width="2"/></svg>
+                  <input type="text" id="order-name" class="form-input" placeholder="e.g. Priya Sharma" required autocomplete="name" />
+                </div>
+                <span class="field-error" id="err-name">Please enter your name</span>
+              </div>
+              <div class="form-group">
+                <label for="order-phone">Phone Number <span class="required">*</span></label>
+                <div class="input-wrap">
+                  <svg class="input-icon" viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                  <input type="tel" id="order-phone" class="form-input" placeholder="e.g. 98765 43210" required autocomplete="tel" />
+                </div>
+                <span class="field-error" id="err-phone">Please enter a valid phone number</span>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="order-address">Delivery / Pickup Address <span class="required">*</span></label>
+              <div class="input-wrap">
+                <svg class="input-icon" viewBox="0 0 24 24" fill="none"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="currentColor"/></svg>
+                <input type="text" id="order-address" class="form-input" placeholder="House no., Colony, Area..." required autocomplete="street-address" />
+              </div>
+              <span class="field-error" id="err-address">Please enter your address</span>
+            </div>
+
+            <div class="form-group">
+              <label for="order-category">Category</label>
+              <div class="input-wrap">
+                <svg class="input-icon" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="7" height="7" rx="1" stroke="currentColor" stroke-width="2"/><rect x="14" y="3" width="7" height="7" rx="1" stroke="currentColor" stroke-width="2"/><rect x="3" y="14" width="7" height="7" rx="1" stroke="currentColor" stroke-width="2"/><rect x="14" y="14" width="7" height="7" rx="1" stroke="currentColor" stroke-width="2"/></svg>
+                <select id="order-category" class="form-input form-select">
+                  <option value="">Select a category (optional)</option>
+                  <option value="Grains & Pulses">🌾 Grains &amp; Pulses</option>
+                  <option value="Spices & Masalas">🌶️ Spices &amp; Masalas</option>
+                  <option value="Oils & Ghee">🫙 Oils &amp; Ghee</option>
+                  <option value="Snacks & Biscuits">🍪 Snacks &amp; Biscuits</option>
+                  <option value="Beverages & Tea">☕ Beverages &amp; Tea</option>
+                  <option value="Household & Personal Care">🧴 Household &amp; Personal Care</option>
+                  <option value="Dairy Products">🥛 Dairy Products</option>
+                  <option value="LPG Gas">🔥 LPG Gas Filling</option>
+                  <option value="Xerox / Print">🖨️ Xerox / Print</option>
+                  <option value="Mixed / Other">🛒 Mixed / Other</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="order-items">Your Order Items <span class="required">*</span></label>
+              <div class="input-wrap textarea-wrap">
+                <textarea id="order-items" class="form-input form-textarea" placeholder="Example:
+- 1 kg Basmati Rice
+- 500g Tata Salt
+- Surf Excel 1kg
+- 2L Sunflower Oil" rows="5" required></textarea>
+              </div>
+              <span class="field-error" id="err-items">Please list what you need</span>
+            </div>
+
+            <div class="form-group">
+              <label for="order-time">Preferred Pickup / Delivery Time</label>
+              <div class="input-wrap">
+                <svg class="input-icon" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/><path d="M12 7v5l3 3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                <select id="order-time" class="form-input form-select">
+                  <option value="">Any time (optional)</option>
+                  <option value="Morning (8am - 12pm)">Morning (8am – 12pm)</option>
+                  <option value="Afternoon (12pm - 4pm)">Afternoon (12pm – 4pm)</option>
+                  <option value="Evening (4pm - 9:30pm)">Evening (4pm – 9:30pm)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="order-notes">Special Instructions</label>
+              <div class="input-wrap textarea-wrap">
+                <textarea id="order-notes" class="form-input form-textarea" placeholder="Any special requests, brands, or notes..." rows="2"></textarea>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-whatsapp btn-full order-submit-btn" id="order-submit-btn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" fill="white"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.025.504 3.935 1.388 5.608L0 24l6.588-1.358A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.885 0-3.655-.49-5.19-1.348l-.374-.217-3.868.797.829-3.768-.24-.389A9.938 9.938 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z" fill="white"/></svg>
+              Send Order on WhatsApp
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT / MAP ========== -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-eyebrow">Find Us</div>
+        <h2 class="section-title">Visit <span class="text-gradient">Our Store</span></h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-detail" id="contact-address">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="currentColor"/></svg>
+            </div>
+            <div>
+              <div class="contact-detail-label">Address</div>
+              <div class="contact-detail-value">3-160, Annanagar, 3-165, Anna Nagar Colony,<br />Pocharam, Secunderabad,<br />Telangana – 500088</div>
+            </div>
+          </div>
+          <div class="contact-detail" id="contact-phone">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z" fill="currentColor"/></svg>
+            </div>
+            <div>
+              <div class="contact-detail-label">Phone</div>
+              <a href="tel:+919866520727" class="contact-detail-value contact-link">098665 20727</a>
+            </div>
+          </div>
+          <div class="contact-detail" id="contact-hours">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/><path d="M12 7v5l3 3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <div>
+              <div class="contact-detail-label">Store Hours</div>
+              <div class="contact-detail-value">
+                <span class="open-badge">OPEN</span> · Closes at <strong>9:30 PM</strong><br />
+                <span style="opacity:0.7;font-size:0.9em">Open 7 days a week</span>
+              </div>
+            </div>
+          </div>
+          <div class="contact-detail" id="contact-maps">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M9 11a3 3 0 106 0 3 3 0 00-6 0zm9-1.5A9 9 0 113 9.5a9 9 0 0115 0z" fill="currentColor" opacity="0.3"/><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="currentColor"/></svg>
+            </div>
+            <div>
+              <div class="contact-detail-label">Google Maps Code</div>
+              <div class="contact-detail-value">CJJQ+4V Secunderabad, Telangana</div>
+            </div>
+          </div>
+          <a href="https://wa.me/919866520727?text=Hi%2C%20I%20would%20like%20to%20place%20an%20order%20or%20enquire%20about%20your%20store!" target="_blank" class="btn btn-whatsapp btn-full" id="contact-whatsapp-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" fill="currentColor"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.025.504 3.935 1.388 5.608L0 24l6.588-1.358A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.885 0-3.655-.49-5.19-1.348l-.374-.217-3.868.797.829-3.768-.24-.389A9.938 9.938 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z" fill="currentColor"/></svg>
+            Chat on WhatsApp
+          </a>
+          <a href="https://www.google.com/maps/place/Aishwarya+kirana+and+general+store/@17.4300954,78.6365285,16z" target="_blank" class="btn btn-primary btn-full" id="directions-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="currentColor"/></svg>
+            Open in Google Maps
+          </a>
+        </div>
+        <div class="map-container" id="map-embed">
+          <iframe
+            title="Aishwarya Kirana and General Store Location"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.678!2d78.6365285!3d17.4300954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9f17ee3ffd1b%3A0x13f2c51e6c730631!2sAishwarya%20kirana%20and%20general%20store!5e0!3m2!1sen!2sin!4v1709823600000!5m2!1sen!2sin"
+            width="100%"
+            height="100%"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="nav-logo" style="margin-bottom:1rem;">
+            <div class="logo-icon">
+              <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="20" fill="url(#logoGrad2)"/>
+                <path d="M12 28V16l8-6 8 6v12H24v-6h-8v6H12z" fill="white"/>
+                <defs>
+                  <linearGradient id="logoGrad2" x1="0" y1="0" x2="40" y2="40">
+                    <stop stop-color="#FF6B35"/>
+                    <stop offset="1" stop-color="#F7C59F"/>
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+            <span class="logo-text" style="color:white;">Aishwarya <em>Store</em></span>
+          </div>
+          <p class="footer-tagline">Your trusted neighborhood kirana store in Annanagar Colony, Pocharam. Serving the community with quality products and friendly service.</p>
+          <a href="tel:+919866520727" class="footer-phone">📞 098665 20727</a>
+        </div>
+        <div class="footer-links-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#order">Order Online</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">LPG Gas Filling</a></li>
+            <li><a href="#services">Xerox / Photocopy</a></li>
+            <li><a href="#products">Groceries</a></li>
+            <li><a href="#products">Household Items</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-col">
+          <h4>Store Info</h4>
+          <ul>
+            <li>Open Daily</li>
+            <li>Closes 9:30 PM</li>
+            <li>Annanagar Colony</li>
+            <li>Pocharam, Secunderabad</li>
+            <li>Telangana – 500088</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Aishwarya Kirana &amp; General Store. All rights reserved.</p>
+        <a href="https://www.google.com/maps/place/Aishwarya+kirana+and+general+store/@17.4300954,78.6365285,16z" target="_blank" class="footer-maps-link">View on Google Maps ↗</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Buttons -->
+  <div class="float-buttons" id="float-buttons">
+    <a href="https://wa.me/919866520727?text=Hi%2C%20I%20would%20like%20to%20enquire%20about%20your%20store!" target="_blank" class="float-whatsapp" id="float-whatsapp-btn" aria-label="WhatsApp Aishwarya Store">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" fill="white"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.025.504 3.935 1.388 5.608L0 24l6.588-1.358A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.885 0-3.655-.49-5.19-1.348l-.374-.217-3.868.797.829-3.768-.24-.389A9.938 9.938 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z" fill="white"/></svg>
+      <span class="float-tooltip">WhatsApp Us</span>
+    </a>
+    <a href="tel:+919866520727" class="float-call" id="float-call-btn" aria-label="Call Aishwarya Store">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z" fill="white"/></svg>
+      <span class="float-tooltip">Call Us</span>
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

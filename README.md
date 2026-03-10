@@ -1,5 +1,7 @@
 # Aishwarya Kirana & General Store Website
 
+![Website Preview](./preview.png)
+
 This repository contains the source code for a modern, responsive website built for **Aishwarya Kirana & General Store**, a trusted neighborhood grocery store located in Annanagar, Pocharam, Secunderabad.
 
 ## Features
